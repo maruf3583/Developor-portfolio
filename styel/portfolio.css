@@ -139,3 +139,64 @@ section {
 .skill-description {
   color: var(--dark-03, #757575);
 }
+
+/* resume style */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-title {
+  color: var(--dark-02, #474747);
+
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.sub-title {
+  color: var(--dark-03, #757575);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 20px;
+}
+
+.description {
+  color: var(--dark-03, #757575);
+}
+hr {
+  margin: 30px 0 30px 0;
+}
+.resume-btn {
+  margin: 50px 0 113px;
+  text-align: center;
+}
+/* contact section  */
+.contact {
+  display: flex;
+  gap: 117px;
+  background: #fff8f3;
+  padding: 0 230px 130px;
+}
+
+.contact .section-title {
+  text-align: left;
+  margin: 130px 0 30px;
+}
+
+.contact-time {
+  margin-bottom: 20px;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
